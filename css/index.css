@@ -151,6 +151,16 @@ header div {
   margin-right: 10%;
   margin-left: 10%;
 }
+header div p {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #444444;
+}
+header div h4 {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: black;
+}
 header img {
   height: 20vw;
   width: 20vw;
@@ -161,10 +171,6 @@ header img {
   border-width: 5px;
   border-color: gray;
   border-style: solid;
-}
-header p {
-  margin-top: 5px;
-  font-size: 1rem;
 }
 header nav {
   justify-content: space-between;

@@ -191,6 +191,9 @@ header nav a {
 #about p {
   font-size: 1rem;
 }
+#experience {
+  margin-top: 30px;
+}
 #experience h2 {
   font-size: 2.5rem;
   margin-bottom: 15px;
@@ -204,7 +207,8 @@ header nav a {
   margin-bottom: 10px;
 }
 #skills {
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 #skills h2 {
   font-size: 2.5rem;

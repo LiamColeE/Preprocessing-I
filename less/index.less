@@ -61,7 +61,7 @@ table {
 .h2{
 	color: @darkSlate;
 	font-size: 2.5rem;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 
 .navitems{
@@ -69,7 +69,20 @@ table {
 	justify-content: space-between;
 	margin: 25px auto 0px;
 	width: 85%;
-	height: 20px;
+	@media (max-width: 500px){
+		flex-wrap: wrap; 
+		width: 100%;
+		height: 201px;
+		a{
+			width: 100%;
+			text-align: center;
+			margin-bottom: 10px;
+			padding-bottom: 10px;
+			border-bottom: 1px;
+			border-color: @darkSlate;
+			border-style: solid;
+		}
+	}
 }
 
 html, body {
@@ -191,6 +204,8 @@ header{
 	}
 	li{
 		color: @deepMatteGrey;
+		list-style-type: circle;
+		margin-left: 20px;
 	}
 }
 
@@ -214,7 +229,6 @@ header{
 	#misc{
 		width: 40%;
 		height: 60px;
-		vertical-align: top;
 		display: block;
 	}
 	#submit{
@@ -234,10 +248,15 @@ footer{
 			border-radius: 0px;
 		}
 		a{
+			line-height: 30px;
 			color: @silver;
 			font-size: 1rem;
 			text-decoration: none;
 			margin: 5px 20px;
+			@media (max-width: 500px){
+				margin: 0px;
+				padding: 0px;
+			}
 		}
 	}
 }
